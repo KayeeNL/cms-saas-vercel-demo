@@ -1,5 +1,7 @@
 [Back to readme](../README.md)
+
 ## Optimizely CMS Configuration <!-- omit in toc -->
+
 These instructions assume that you've just received the e-mail with login information for the CMS and are able to login to the fresh CMS instance.
 
 - [1. Import the content pack](#1-import-the-content-pack)
@@ -53,6 +55,7 @@ With the content now imported, the next step is to do the initial configuration 
 - Click on "Save Website" to update the website definition
 
 ### 3. Configure the languages
+
 The last step is to have the available languages match the languages in the content pack.
 
 - Navigate to "Settings" (cog icon on the left-hand side) - and then go to "Manage Website Languages" under "Config"
@@ -62,6 +65,7 @@ After configuration the list should look like:
 ![Language configuration](./cms-languages.png)
 
 ### 4. Update content in Optimizely Graph
+
 To make sure the content upload and configuration changes from the previous steps are reflected in Optimizely Graph, take the following steps:
 
 - Navigate to "Settings" (cog icon on the left-hand side) - and then go to "Scheduled Jobs" under "Scheduled Jobs"
@@ -72,6 +76,7 @@ To make sure the content upload and configuration changes from the previous step
 The content will now be reflected correctly by Optimizely Graph
 
 ### 5. Update the Header/Footer configuration
+
 The header and footer are referenced by the identifier of the website/channel, this identifier will only be created in step 2 above. These steps ensure the header & footer configuration can be found by the frontend:
 
 1. **Obtain the channel identifier:**

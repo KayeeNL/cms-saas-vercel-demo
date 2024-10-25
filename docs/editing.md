@@ -1,15 +1,19 @@
 [Back to readme](../README.md)
 
 ## Enable on page / in context editing
+
 So, after you've configured the CMS and successfully deployed the frontend, you now need to make a few changes to fully enable on-page editing.
 
 ### Prerequisites
+
 - You will need to domain at which the site is available to the public. If you've deployed to Vercel, this will be something like `my-project.vercel.app`
 
 ### CMS Side
+
 First of we need to tell the CMS where the frontend has been deployed, so it can use it to provide on-page editing. This is leveraging the normal production deployment, so it's not needed to create or maintain additional branches.
 
 Within the CMS, take the following steps:
+
 - Navigate to "Settings" (cog icon on the left-hand side) - and then go to "Manage Websites" under "Config"
 - Click on the ***Name*** of the website you've just created.
 - Click on "Add Host" and fill out the form accordingly:
@@ -35,6 +39,7 @@ Within the CMS, take the following steps:
 If you now visit a content item in the CMS, you should be able to switch to On-Page-Editing and see the outlines for the editable fields.
 
 ### Vercel application
+
 The build-script includes the registration of the web-hook needed to refresh the cache at Vercel once a content-item gets published.
 
 To make sure this webhook gets invoked on the right domain, make sure to configure the following envionment variable to point the webhook to the right location.
