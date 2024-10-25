@@ -19,7 +19,8 @@ These instructions assume that you've just received the e-mail with login inform
 After clicking "Begin Import", you should see a loader during the import. After import, a results section should appear, which summarized the number of imported items.
 
 ### 2. Configure the channel
-With the content now imported, the next step is to do the initial configuraiton of the channel. This will allow the website to connect to the content and render it.
+
+With the content now imported, the next step is to do the initial configuration of the channel. This will allow the website to connect to the content and render it.
 
 - Navigate to "Settings" (cog icon on the left-hand side) - and then go to "Manage Websites" under "Config"
 - Click on "Create website" to create a new channel definition
